@@ -1,0 +1,208 @@
+{
+    "Maintenance": {
+      "title": "Modul de Mentenanță",
+      "description": "Sistemul nostru este în prezent în mentenanță. Serviciile noastre vor fi disponibile din nou în curând.",
+      "infoTitle": "Ce se întâmplă?",
+      "infoText": "Actualizăm sistemul nostru pentru a oferi un serviciu mai bun. Toate datele dvs. sunt în siguranță în timpul acestui proces.",
+      "estimatedTime": "Timpul Estimat",
+      "estimatedDuration": "2-4 Ore",
+      "contactInfo": "Pentru situații urgente, vă rugăm să ne contactați:",
+      "refreshButton": "Reîmprospătează Pagina"
+    },
+    "Header": {
+      "home": "HOME",
+      "products": "PRODUCTS",
+      "newproducts": "Produse noi",
+      "catalog": "Catalog",
+      "news": "Stiri",
+      "corporate": "Companie",
+      "termsOfUse": "Termeni de folosinta",
+      "contact": "Adresa noua",
+      "search": "Cauta",
+      "searchPlaceholder": "Scrie numele produsului, codul de bare sau codul de stoc...",
+      "sliderButon":"Click pentru mai multe",
+      "occasionalProducts":"Produse Occasionale",
+      "readMore":"Citeste mai mult",
+      "benzerUrunler":"Produse similare",
+      "aydinlatmaMetni":"Text de iluminare",
+      "orders":"Comenzi",
+      "cartButon":"Adauga in cos",
+      "addToCart":"Adauga in cos",
+      "cart":"Cos",
+      "modalOdemeButon":"Plateste",
+      "siparisTamamla":"Comanda finalizata",
+      "toplamFiyat":"Pret total",
+      "araToplam":"Subtotal",
+      "filters":"Filters",
+      "clearFilters":"Clear Filters",
+      "colorTemperature":"Temperatura culorii",
+      "gonderiAdresi":"Adresa de livrare",
+      "faturaAdresi":"Adresa de facturare",
+      "sepetAciklama":"Descriere",
+      "alisveriseDevamEt":"Continua cumparaturile",
+      "siparisOlusturuluyor":"Comanda este in curs de creare...",
+      "siparislerim":"Comenzi mele",
+      "siparisNo":"Comanda No",
+      "siparisBasarili":"Comanda dvs. a fost finalizata cu succes.",
+      "siparisBilgi":"Informatii despre comanda",
+      "order":"Comandă",
+      "invoice":"Factură",
+      "oturumKapat":"Iesire",
+      "profil":"Profil",
+      "cariEkstre":"Extras de cont",
+      "kargoFaturaAdresiSecilmedi":"Adresa de livrare si adresa de facturare nu a fost selectata",
+      "siparisBasarisiz":"Comanda dvs. nu a putut fi creata",
+      "selectAllVariants":"Selectati toate variantele",
+      "cokSatanlar":"Cel mai vandut",
+      "outletproducts":"Produse reducere",
+      "genelToplam":"Total",
+      "miktar":"Cantitate",
+      "fiyat":"Pret",
+      "beklemede":"In asteptare",
+      "onaylandi":"Aprobata",
+      "hazirlaniyor":"In pregatire",
+      "kargoda":"In curs de livrare",
+      "teslimEdildi":"Livrat",
+      "iptalEdildi":"Anulat",
+      "hazir":"Gata",
+      "havale":"Tranzactie",
+      "stok":"Stoc",
+      "yoldaki":"In curs de livrare",
+      "uretimde":"In pregatire",
+      "koliIciAdeti":"Cantitate in palet",
+      "categories":"Categorii",
+      "sepetiBosalt":"Sterge comanda",
+      "sepetiBosaltOnay":"Esti sigur ca vrei sa stergi comanda?",
+      "sepetiBosaltOnayMesaj":"Aceasta actiune nu poate fi anulata. Toate produsele vor fi sterse din cos.",
+      "sepetBosaltildi":"Comanda a fost stearsa cu succes",
+      "iptal":"Anuleaza",
+      "sirala":"Sortare",
+      "alfabetikAZ":"Alfabetical A-Z",
+      "alfabetikZA":"Alfabetical Z-A",
+      "rastgele":"Random",
+      "guncelBakiye":"Soldul curent",
+      "bakiyeAlinamadi":"Soldul nu poate fi obtinut",
+      "borcunuz":"Datoria ta",
+      "alacaginiz":"Creditul tau",
+      "bakiyeDengede":"Sold echilibrat",
+      "addedToCart":"Adaugat in cos",
+      "viewDetails":"Vezi Detalii"
+    },
+    "HomeAraKatalog": {
+      "title": "Produse Horoz Europe Sunt Aici Pentru Voi!",
+      "description": "Produse Horoz Europe sunt aici pentru a fi gasite rapid folosind bara de cautare si filtrele.",
+      "button": "Click pentru mai multe",
+      "catalog": "Catalog Horoz Europe"
+    },
+    "HomeUlkeler": {
+      "title": "Horoz Europe Global",
+      "description": "Țări în care operăm",
+      "button": "Contactați-ne"
+    },
+    "Footer": {
+      "poweredBy": "Drepturi de autor 2026 Horoz Europe. Toate Drepturile Rezervate",
+      "pages": "Pagini"
+    },
+    "UrunDetaySayfasi": {
+      "urunOzellikleri":"Caracteristici produs"
+    },
+
+    "loginPage": {
+      "kullaniciAdi":"E-mail",
+      "sifre":"Parola",
+      "girisYap":"Login",
+      "yeniBayiKayit":"Înregistrare nou dealer",
+      "hesapGiris":"Login to your account",
+      "hosgeldiniz":"Welcome",
+      "lutfenRobotOlmadiginiziDogrulayin":"Please verify that you are not a robot"
+     },
+
+     "newDealerPage": {
+      "ad":"Nume companie",
+      "soyad":"Persoana contact",
+      "eposta":"E-Mail",
+      "vknTckn":"Numar de taxare",
+      "telefon":"Telefon",
+      "adres":"Adresa",
+      "ulke":"Tara",
+      "il":"Oras",
+      "ilce":"Judet",
+      "postaKodu":"Cod postal",
+      "basvuruYap":"Înregistrare nou dealer",
+      "zatenUyeMisinsiniz":"Sunt deja membru?",
+      "girisYap":"Login",
+      "gonderiliyor":"Trimite...",
+      "basvurunuzBasarili":"Aplicația dvs. a fost trimisă cu succes. Vă vom informa după ce va fi aprobat.",
+      "lutfenRobotOlmadiginiziDogrulayin":"Please verify that you are not a robot",
+      "sifre":"Parola",
+      "sifreTekrar":"Parola Repetare",
+      "sifreTekrarHatasi":"Parolele nu coincid"
+    },
+
+    "CariEkstre": {
+      "cariEkstre":"Extras de cont",
+      "filtrele":"Filtre",
+      "listele":"Liste",
+      "onceki":"Înapoi",
+      "sonraki":"Înainte",
+      "10Kayit":"10 Înregistrări",
+      "20Kayit":"20 Înregistrări",
+      "50Kayit":"50 Înregistrări",
+      "100Kayit":"100 Înregistrări",
+      "200Kayit":"200 Înregistrări",
+      "500Kayit":"500 Înregistrări",
+      "1000Kayit":"1000 Înregistrări",
+      "yukleniyor":"Se încarcă..."
+    },
+
+    "Corporate": {
+      "title": "HOROZ EUROPE | CORPORATE",
+      "description": "HOROZ EUROPE | CORPORATE"
+    },
+    "TermsOfUse": {
+      "title": "HOROZ EUROPE | TERMENI DE FOLOSINTA",
+      "description": "HOROZ EUROPE | TERMENI DE FOLOSINTA"
+    },
+    "Contact": {
+      "title": "HOROZ EUROPE | CONTACT",
+      "description": "HOROZ EUROPE | CONTACT"
+    },
+    "News": {
+      "title": "HOROZ EUROPE | ȘTIRI",
+      "description": "HOROZ EUROPE | ȘTIRI"
+    },
+    "Catalog": {
+        "title": "HOROZ EUROPE | CATALOAGE",
+        "description": "HOROZ EUROPE | CATALOAGE"
+      },
+      "NewProducts": {
+        "title": "HOROZ EUROPE | PRODUSE NOI",
+        "description": "HOROZ EUROPE | PRODUSE NOI"
+      },
+      "Products": {
+        "title": "HOROZ EUROPE | PRODUSE",
+        "description": "HOROZ EUROPE | PRODUSE"
+      },
+      "ProductDetail": {
+        "title": "HOROZ EUROPE | PRODUS",
+        "description": "HOROZ EUROPE | PRODUS"
+      },
+      "OutletProducts": {
+        "title": "HOROZ EUROPE | PRODUSE REDUCERE",
+        "description": "HOROZ EUROPE | PRODUSE REDUCERE"
+      },
+      "CookieConsent": {
+        "title": "Utilizarea cookie-urilor",
+        "description": "Acest site utilizează cookie-uri pentru a îmbunătăți experiența dvs. și pentru a vă furniza conținut personalizat.",
+        "accept": "Acceptă"
+      },
+      "LightingText": {
+        "title": "HOROZ EUROPE | TEXT DE INFORMARE",
+        "description": "HOROZ EUROPE | TEXT DE INFORMARE",
+        "heading": "Text de informare",
+        "intro": "Datele dvs. cu caracter personal sunt prelucrate și protejate doar în măsura necesară, conform legislației aplicabile.",
+        "madde1": "Datele colectate sunt utilizate pentru gestionarea operațiunilor de membru, proceselor de comandă, livrare și relații cu clienții.",
+        "madde2": "Datele dvs. pot fi partajate cu parteneri și instituții autorizate atunci când este necesar pentru obligații legale sau pentru furnizarea serviciului.",
+        "madde3": "Vă puteți exercita drepturile privind accesul, corectarea, ștergerea și opoziția asupra datelor personale prin canalele noastre de comunicare."
+      }
+  }

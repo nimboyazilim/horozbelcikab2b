@@ -1,0 +1,224 @@
+{
+  "Maintenance": {
+    "title": "Mode Maintenance",
+    "description": "Notre système est actuellement en maintenance. Nos services seront à nouveau disponibles sous peu.",
+    "infoTitle": "Que se passe-t-il ?",
+    "infoText": "Nous mettons à jour notre système afin de vous offrir un meilleur service. Toutes vos données sont en sécurité pendant ce processus.",
+    "estimatedTime": "Durée estimée",
+    "estimatedDuration": "2 à 4 heures",
+    "contactInfo": "Pour les questions urgentes, veuillez nous contacter :",
+    "refreshButton": "Actualiser la page"
+  },
+  "Header": {
+    "home": "Accueil",
+    "products": "Produits",
+    "newproducts": "Nouveaux produits",
+    "catalog": "Catalogue de produits",
+    "news": "Actualités",
+    "corporate": "À propos",
+    "termsOfUse": "Conditions d'utilisation",
+    "contact": "Contact",
+    "search": "Rechercher",
+    "searchPlaceholder": "Saisissez le nom du produit, le code-barres ou le code stock...",
+    "sliderButon": "En savoir plus",
+    "occasionalProducts": "Offres saisonnières",
+    "readMore": "Lire la suite",
+    "benzerUrunler": "Produits similaires",
+    "aydinlatmaMetni": "Texte d'information",
+    "orders": "Commandes",
+    "cartButon": "Ajouter au panier",
+    "addToCart": "Ajouter au panier",
+    "cart": "Panier",
+    "modalOdemeButon": "Procéder au paiement",
+    "siparisTamamla": "Finaliser la commande",
+    "toplamFiyat": "Prix total",
+    "araToplam": "Sous-total",
+    "filters": "Filtres",
+    "clearFilters": "Effacer les filtres",
+    "colorTemperature": "Température de couleur",
+    "gonderiAdresi": "Adresse de livraison",
+    "faturaAdresi": "Adresse de facturation",
+    "sepetAciklama": "Description",
+    "alisveriseDevamEt": "Continuer mes achats",
+    "siparisOlusturuluyor": "Création de la commande...",
+    "siparislerim": "Mes commandes",
+    "siparisNo": "N° de commande",
+    "siparisBasarili": "Votre commande a été passée avec succès.",
+    "siparisBilgi": "Détails de la commande",
+    "order": "Commande",
+    "invoice": "Facture",
+    "oturumKapat": "Se déconnecter",
+    "profil": "Profil",
+    "cariEkstre": "Relevé de compte",
+    "kargoFaturaAdresiSecilmedi": "Veuillez sélectionner l'adresse de livraison et de facturation.",
+    "siparisBasarisiz": "Échec de la commande.",
+    "selectAllVariants": "Veuillez sélectionner toutes les options.",
+    "cokSatanlar": "Meilleures ventes",
+    "birimFiyat": "Prix unitaire",
+    "toplam": "Total",
+    "iskonto": "Remise",
+    "kdv": "TVA",
+    "outletproducts": "Produits déstockage",
+    "genelToplam": "Total général",
+    "miktar": "Quantité",
+    "fiyat": "Prix",
+    "beklemede": "En attente",
+    "onaylandi": "Confirmée",
+    "hazirlaniyor": "En préparation",
+    "kargoda": "Expédiée",
+    "teslimEdildi": "Livrée",
+    "iptalEdildi": "Annulée",
+    "hazir": "Prête",
+    "havale": "Virement bancaire",
+    "stok": "En stock",
+    "yoldaki": "En route",
+    "uretimde": "En production",
+    "koliIciAdeti": "Quantité par carton",
+    "categories": "Catégories",
+    "sepetiBosalt": "Supprimer la commande",
+    "sepetiBosaltOnay": "Êtes-vous sûr de vouloir supprimer la commande ?",
+    "sepetiBosaltOnayMesaj": "Cette action est irréversible. Tous les produits seront supprimés du panier.",
+    "sepetBosaltildi": "Commande supprimée avec succès",
+    "iptal": "Annuler",
+    "sirala": "Trier",
+    "alfabetikAZ": "Alphabétique A-Z",
+    "alfabetikZA": "Alphabétique Z-A",
+    "rastgele": "Aléatoire",
+    "guncelBakiye": "Solde actuel",
+    "bakiyeAlinamadi": "Solde indisponible",
+    "borcunuz": "Votre dette",
+    "alacaginiz": "Votre crédit",
+    "bakiyeDengede": "Solde équilibré",
+    "addedToCart": "Ajouté au panier",
+    "viewDetails": "Voir les détails"
+  },
+  "HomeAraKatalog": {
+    "title": "Découvrez les produits Horoz Europe conçus pour vous !",
+    "description": "Trouvez rapidement nos produits grâce à la barre de recherche et aux filtres.",
+    "button": "En savoir plus",
+    "catalog": "Catalogue Horoz Europe"
+  },
+  "HomeUlkeler": {
+    "title": "Horoz Europe Global",
+    "description": "Pays dans lesquels nous opérons",
+    "button": "Contactez-nous"
+  },
+  "Footer": {
+    "poweredBy": "Tous droits réservés. 2026 Horoz Europe",
+    "pages": "Pages"
+  },
+  "UrunDetaySayfasi": {
+    "urunOzellikleri": "Caractéristiques du produit"
+  },
+  "loginPage": {
+    "kullaniciAdi": "E-mail",
+    "sifre": "Mot de passe",
+    "girisYap": "Connexion",
+    "yeniBayiKayit": "Inscription nouveau revendeur",
+    "hesapGiris": "Connectez-vous à votre compte",
+    "hosgeldiniz": "Bienvenue",
+    "lutfenRobotOlmadiginiziDogrulayin": "Veuillez confirmer que vous n'êtes pas un robot"
+  },
+  "newDealerPage": {
+    "ad": "Nom de l'entreprise",
+    "soyad": "Personne de contact",
+    "eposta": "E-mail",
+    "vknTckn": "Numéro fiscal",
+    "telefon": "Téléphone",
+    "adres": "Adresse",
+    "ulke": "Pays",
+    "il": "Ville",
+    "ilce": "District",
+    "postaKodu": "Code postal",
+    "basvuruYap": "Soumettre",
+    "zatenUyeMisinsiniz": "Déjà membre ?",
+    "girisYap": "Connexion",
+    "gonderiliyor": "Envoi en cours...",
+    "basvurunuzBasarili": "Votre demande a été soumise avec succès. Nous vous informerons après approbation.",
+    "lutfenRobotOlmadiginiziDogrulayin": "Veuillez confirmer que vous n'êtes pas un robot",
+    "sifre": "Mot de passe",
+    "sifreTekrar": "Confirmer le mot de passe",
+    "sifreTekrarHatasi": "Les mots de passe ne correspondent pas"
+  },
+  "CariEkstre": {
+    "cariEkstre": "Relevé de compte",
+    "filtrele": "Filtrer",
+    "listele": "Lister",
+    "onceki": "Précédent",
+    "sonraki": "Suivant",
+    "10Kayit": "10 enregistrements",
+    "20Kayit": "20 enregistrements",
+    "50Kayit": "50 enregistrements",
+    "100Kayit": "100 enregistrements",
+    "200Kayit": "200 enregistrements",
+    "500Kayit": "500 enregistrements",
+    "1000Kayit": "1000 enregistrements",
+    "yukleniyor": "Chargement..."
+  },
+  "TopluUrunEkleme": {
+    "topluUrunEkleme": "Ajout groupé de produits",
+    "topluUrunEklemeDescription": "Téléchargez la liste des produits, mettez à jour le fichier Excel et téléversez-le à nouveau.",
+    "urunListesiIndir": "Télécharger la liste des produits",
+    "urunListesiIndirDescription": "Modifiez le fichier Excel téléchargé et indiquez les quantités de produits.",
+    "dosyaYukle": "Téléverser un fichier",
+    "dosyaYukleDescription": "Seuls les fichiers Excel (.xlsx, .xls) sont acceptés.",
+    "yukleniyor": "Téléversement...",
+    "urunleriSepeteEkle": "Ajouter au panier",
+    "hataliUrunler": "Produits invalides",
+    "hataliUrunlerDescription": "Les produits suivants n'ont pas pu être ajoutés au panier. Veuillez vérifier et réessayer.",
+    "hata": "Erreur",
+    "sepeteGit": "Aller au panier",
+    "indiriliyor": "Téléchargement...",
+    "miktar": "Quantité"
+  },
+  "Corporate": {
+    "title": "HOROZ EUROPE | À PROPOS",
+    "description": "HOROZ EUROPE | À PROPOS"
+  },
+  "TermsOfUse": {
+    "title": "HOROZ EUROPE | CONDITIONS D'UTILISATION",
+    "description": "HOROZ EUROPE | CONDITIONS D'UTILISATION"
+  },
+  "Contact": {
+    "title": "HOROZ EUROPE | CONTACT",
+    "description": "HOROZ EUROPE | CONTACT"
+  },
+  "News": {
+    "title": "HOROZ EUROPE | ACTUALITÉS",
+    "description": "HOROZ EUROPE | ACTUALITÉS"
+  },
+  "Catalog": {
+    "title": "HOROZ EUROPE | CATALOGUE DE PRODUITS",
+    "description": "HOROZ EUROPE | CATALOGUE DE PRODUITS"
+  },
+  "NewProducts": {
+    "title": "HOROZ EUROPE | NOUVEAUX PRODUITS",
+    "description": "HOROZ EUROPE | NOUVEAUX PRODUITS"
+  },
+  "Products": {
+    "title": "HOROZ EUROPE | PRODUITS",
+    "description": "HOROZ EUROPE | PRODUITS"
+  },
+  "ProductDetail": {
+    "title": "HOROZ EUROPE | DÉTAILS DU PRODUIT",
+    "description": "HOROZ EUROPE | DÉTAILS DU PRODUIT"
+  },
+  "OutletProducts": {
+    "title": "HOROZ EUROPE | PRODUITS DÉSTOCKAGE",
+    "description": "HOROZ EUROPE | PRODUITS DÉSTOCKAGE"
+  },
+  "CookieConsent": {
+    "title": "Utilisation des cookies",
+    "description": "Ce site utilise des cookies pour améliorer votre expérience et vous proposer un contenu personnalisé.",
+    "accept": "Accepter"
+  },
+  "LightingText": {
+    "title": "HOROZ EUROPE | TEXTE D'INFORMATION",
+    "description": "HOROZ EUROPE | TEXTE D'INFORMATION",
+    "heading": "Texte d'information",
+    "intro": "Vos données personnelles sont traitées et protégées uniquement dans la mesure nécessaire et conformément à la législation en vigueur.",
+    "madde1": "Les données collectées sont utilisées pour gérer les opérations d'adhésion, les processus de commande, la livraison et les activités de relation client.",
+    "madde2": "Vos données peuvent être partagées avec des partenaires et institutions autorisés lorsque cela est requis par des obligations légales ou pour la prestation du service.",
+    "madde3": "Vous pouvez exercer vos droits d'accès, de rectification, de suppression et d'opposition concernant vos données personnelles via nos canaux de communication."
+  }
+}

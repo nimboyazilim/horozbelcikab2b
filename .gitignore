@@ -1,0 +1,7 @@
+backend/node_modules/
+backend/public/
+b2b/node_modules/
+b2b/.next/
+cms/node_modules/
+cms/.next/
+

@@ -1,0 +1,224 @@
+{
+  "Maintenance": {
+    "title": "Режим обслуживания",
+    "description": "Наша система в настоящее время находится на техническом обслуживании. Наши услуги будут снова доступны в ближайшее время.",
+    "infoTitle": "Что происходит?",
+    "infoText": "Мы обновляем нашу систему, чтобы предоставить лучший сервис. Все ваши данные в безопасности во время этого процесса.",
+    "estimatedTime": "Ожидаемое время",
+    "estimatedDuration": "2-4 часа",
+    "contactInfo": "По срочным вопросам, пожалуйста, свяжитесь с нами:",
+    "refreshButton": "Обновить страницу"
+  },
+  "Header": {
+    "home": "ГЛАВНАЯ",
+    "products": "ПРОДУКЦИЯ",
+    "newproducts": "НОВИНКИ",
+    "catalog": "КАТАЛОГ",
+    "news": "НОВОСТИ",
+    "corporate": "О КОМПАНИИ",
+    "termsOfUse": "УСЛОВИЯ ИСПОЛЬЗОВАНИЯ",
+    "contact": "КОНТАКТЫ",
+    "search": "ПОИСК",
+    "searchPlaceholder": "Введите название товара, штрихкод или код запаса...",
+    "sliderButon": "Узнать больше",
+    "occasionalProducts": "СЕЗОННЫЕ ТОВАРЫ",
+    "readMore": "Читать далее",
+    "benzerUrunler": "Похожие товары",
+    "aydinlatmaMetni": "Текст об освещении",
+    "orders": "ЗАКАЗЫ",
+    "cartButon": "Добавить в корзину",
+    "addToCart": "Добавить в корзину",
+    "cart": "КОРЗИНА",
+    "modalOdemeButon": "Перейти к оплате",
+    "siparisTamamla": "Завершить заказ",
+    "toplamFiyat": "Общая сумма",
+    "araToplam": "Промежуточный итог",
+    "filters": "Фильтры",
+    "clearFilters": "Сбросить фильтры",
+    "colorTemperature": "Цветовая температура",
+    "gonderiAdresi": "Адрес доставки",
+    "faturaAdresi": "Адрес для счета",
+    "sepetAciklama": "Описание",
+    "alisveriseDevamEt": "Продолжить покупки",
+    "siparisOlusturuluyor": "Создание заказа...",
+    "siparislerim": "Мои заказы",
+    "siparisNo": "Номер заказа",
+    "siparisBasarili": "Ваш заказ успешно создан.",
+    "siparisBilgi": "Информация о заказе",
+    "order": "Заказ",
+    "invoice": "Счет",
+    "oturumKapat": "Выйти",
+    "profil": "Профиль",
+    "cariEkstre": "Выписка по счёту",
+    "kargoFaturaAdresiSecilmedi": "Адрес доставки и счёта не выбран",
+    "siparisBasarisiz": "Не удалось создать заказ",
+    "selectAllVariants": "Пожалуйста, выберите все варианты",
+    "cokSatanlar": "ХИТЫ ПРОДАЖ",
+    "birimFiyat": "Цена за единицу",
+    "toplam": "Итого",
+    "iskonto": "Скидка",
+    "kdv": "НДС",
+    "outletproducts": "РАСПРОДАЖА",
+    "genelToplam": "Общая сумма",
+    "miktar": "Количество",
+    "fiyat": "Цена",
+    "beklemede": "В ожидании",
+    "onaylandi": "Подтвержден",
+    "hazirlaniyor": "Готовится",
+    "kargoda": "В пути",
+    "teslimEdildi": "Доставлен",
+    "iptalEdildi": "Отменен",
+    "hazir": "Готов",
+    "havale": "Перевод",
+    "stok": "На складе",
+    "yoldaki": "В пути",
+    "uretimde": "В производстве",
+    "koliIciAdeti": "Количество в коробке",
+    "categories": "Категории",
+    "sepetiBosalt": "Удалить заказ",
+    "sepetiBosaltOnay": "Вы уверены, что хотите удалить заказ?",
+    "sepetiBosaltOnayMesaj":"Это действие не может быть отменено. Все продукты будут удалены из корзины.",
+    "sepetBosaltildi": "Заказ успешно удален",
+    "iptal": "Отмена",
+    "sirala": "Сортировка",
+    "alfabetikAZ": "Алфавитный A-Z",
+    "alfabetikZA": "Алфавитный Z-A",
+    "rastgele": "Случайный",
+    "guncelBakiye": "Текущий баланс",
+    "bakiyeAlinamadi": "Баланс недоступен",
+    "borcunuz": "Ваш долг",
+    "alacaginiz": "Ваш кредит",
+    "bakiyeDengede": "Баланс сбалансирован",
+    "addedToCart": "Добавлено в корзину",
+    "viewDetails": "Подробнее"
+  },
+  "HomeAraKatalog": {
+    "title": "Продукция Horoz Europe — здесь для вас!",
+    "description": "Продукция Horoz Europe доступна для быстрого поиска через строку поиска и фильтры.",
+    "button": "Узнать больше",
+    "catalog": "Каталог Horoz Europe"
+  },
+  "HomeUlkeler": {
+    "title": "Horoz Europe по всему миру",
+    "description": "Страны, в которые мы поставляем продукцию",
+    "button": "Свяжитесь с нами"
+  },
+  "Footer": {
+    "poweredBy": "Все права защищены. 2025 Horoz Europe",
+    "pages": "Страницы"
+  },
+  "UrunDetaySayfasi": {
+    "urunOzellikleri": "Характеристики товара"
+  },
+  "loginPage": {
+    "kullaniciAdi": "E-mail",
+    "sifre": "Пароль",
+    "girisYap": "Войти",
+    "yeniBayiKayit": "Регистрация нового дилера",
+    "hesapGiris": "Вход в аккаунт",
+    "hosgeldiniz": "Добро пожаловать",
+    "lutfenRobotOlmadiginiziDogrulayin": "Пожалуйста, подтвердите, что вы не робот"
+  },
+  "newDealerPage": {
+    "ad": "Название компании",
+    "soyad": "Контактное лицо",
+    "eposta": "Электронная почта",
+    "vknTckn": "Налоговый номер",
+    "telefon": "Телефон",
+    "adres": "Адрес",
+    "ulke": "Страна",
+    "il": "Город",
+    "ilce": "Район",
+    "postaKodu": "Почтовый индекс",
+    "basvuruYap": "Подать заявку",
+    "zatenUyeMisinsiniz": "Уже зарегистрированы?",
+    "girisYap": "Войти",
+    "gonderiliyor": "Отправляется...",
+    "basvurunuzBasarili": "Ваша заявка успешно отправлена. Мы сообщим вам после одобрения.",
+    "lutfenRobotOlmadiginiziDogrulayin": "Пожалуйста, подтвердите, что вы не робот",
+    "sifre": "Пароль",
+    "sifreTekrar": "Повторите пароль",
+    "sifreTekrarHatasi": "Пароли не совпадают"
+  },
+  "CariEkstre": {
+    "cariEkstre": "Выписка по счёту",
+    "filtrele": "Фильтровать",
+    "listele": "Список",
+    "onceki": "Предыдущий",
+    "sonraki": "Следующий",
+    "10Kayit": "10 регистраций",
+    "20Kayit": "20 регистраций",
+    "50Kayit": "50 регистраций",
+    "100Kayit": "100 регистраций",
+    "200Kayit": "200 регистраций",
+    "500Kayit": "500 регистраций",
+    "1000Kayit": "1000 регистраций",
+    "yukleniyor": "Загрузка..."
+  },
+  "TopluUrunEkleme": {
+    "topluUrunEkleme": "Массовое добавление товаров",
+    "topluUrunEklemeDescription": "Скачайте список товаров, отредактируйте Excel-файл и загрузите его обратно.",
+    "urunListesiIndir": "Скачать список товаров",
+    "urunListesiIndirDescription": "Отредактируйте Excel-файл и укажите количество товаров.",
+    "dosyaYukle": "Загрузить файл",
+    "dosyaYukleDescription": "Принимаются только файлы Excel (.xlsx, .xls).",
+    "yukleniyor": "Загрузка...",
+    "urunleriSepeteEkle": "Добавить в корзину",
+    "hataliUrunler": "Некорректные товары",
+    "hataliUrunlerDescription": "Следующие товары не удалось добавить в корзину. Пожалуйста, проверьте и попробуйте снова.",
+    "hata": "Ошибка",
+    "sepeteGit": "Перейти в корзину",
+    "indiriliyor": "Скачивание...",
+    "miktar": "Количество"
+  },
+  "Corporate": {
+    "title": "HOROZ EUROPE | О КОМПАНИИ",
+    "description": "HOROZ EUROPE | О КОМПАНИИ"
+  },
+  "TermsOfUse": {
+    "title": "HOROZ EUROPE | УСЛОВИЯ ИСПОЛЬЗОВАНИЯ",
+    "description": "HOROZ EUROPE | УСЛОВИЯ ИСПОЛЬЗОВАНИЯ"
+  },
+  "Contact": {
+    "title": "HOROZ EUROPE | КОНТАКТЫ",
+    "description": "HOROZ EUROPE | КОНТАКТЫ"
+  },
+  "News": {
+    "title": "HOROZ EUROPE | НОВОСТИ",
+    "description": "HOROZ EUROPE | НОВОСТИ"
+  },
+  "Catalog": {
+    "title": "HOROZ EUROPE | КАТАЛОГ",
+    "description": "HOROZ EUROPE | КАТАЛОГ"
+  },
+  "NewProducts": {
+    "title": "HOROZ EUROPE | НОВИНКИ",
+    "description": "HOROZ EUROPE | НОВИНКИ"
+  },
+  "Products": {
+    "title": "HOROZ EUROPE | ПРОДУКЦИЯ",
+    "description": "HOROZ EUROPE | ПРОДУКЦИЯ"
+  },
+  "ProductDetail": {
+    "title": "HOROZ EUROPE | ТОВАР",
+    "description": "HOROZ EUROPE | ТОВАР"
+  },
+  "OutletProducts": {
+    "title": "HOROZ EUROPE | РАСПРОДАЖА",
+    "description": "HOROZ EUROPE | РАСПРОДАЖА"
+  },
+  "CookieConsent": {
+    "title": "Использование файлов cookie",
+    "description": "Этот сайт использует файлы cookie для улучшения вашего опыта и предоставления персонализированного контента.",
+    "accept": "Принять"
+  },
+  "LightingText": {
+    "title": "HOROZ EUROPE | ТЕКСТ О РАЗЪЯСНЕНИИ",
+    "description": "HOROZ EUROPE | ТЕКСТ О РАЗЪЯСНЕНИИ",
+    "heading": "Текст о разъяснении",
+    "intro": "Ваши персональные данные обрабатываются и защищаются только в необходимом объеме в соответствии с действующим законодательством.",
+    "madde1": "Собранные данные используются для ведения операций членства, заказов, доставки и взаимодействия с клиентами.",
+    "madde2": "Ваши данные могут передаваться уполномоченным партнерам и учреждениям при наличии правовых оснований или необходимости предоставления услуги.",
+    "madde3": "Вы можете воспользоваться правами на доступ, исправление, удаление и возражение в отношении персональных данных через наши каналы связи."
+  }
+}

@@ -1,0 +1,224 @@
+{
+  "Maintenance": {
+    "title": "Maintenance Mode",
+    "description": "Our system is currently under maintenance. Our services will be available again shortly.",
+    "infoTitle": "What's Happening?",
+    "infoText": "We are updating our system to provide better service. All your data is safe during this process.",
+    "estimatedTime": "Estimated Time",
+    "estimatedDuration": "2-4 Hours",
+    "contactInfo": "For urgent matters, please contact us:",
+    "refreshButton": "Refresh Page"
+  },
+  "Header": {
+    "home": "Home",
+    "products": "Products",
+    "newproducts": "New Products",
+    "catalog": "Product Catalog",
+    "news": "News",
+    "corporate": "About Us",
+    "termsOfUse": "Terms of Use",
+    "contact": "Contact",
+    "search": "Search",
+    "searchPlaceholder": "Type product name, barcode or stock code...",
+    "sliderButon": "Learn More",
+    "occasionalProducts": "Seasonal Offers",
+    "readMore": "Read More",
+    "benzerUrunler": "Similar Products",
+    "aydinlatmaMetni": "Clarification Text",
+    "orders": "Orders",
+    "cartButon": "Add to Cart",
+    "addToCart": "Add to Cart",
+    "cart": "Cart",
+    "modalOdemeButon": "Proceed to Checkout",
+    "siparisTamamla": "Complete Order",
+    "toplamFiyat": "Total Price",
+    "araToplam": "Subtotal",
+    "filters": "Filters",
+    "clearFilters": "Clear Filters",
+    "colorTemperature": "Color Temperature",
+    "gonderiAdresi": "Shipping Address",
+    "faturaAdresi": "Billing Address",
+    "sepetAciklama": "Description",
+    "alisveriseDevamEt": "Continue Shopping",
+    "siparisOlusturuluyor": "Creating Order...",
+    "siparislerim": "My Orders",
+    "siparisNo": "Order No",
+    "siparisBasarili": "Your order has been placed successfully.",
+    "siparisBilgi": "Order Details",
+    "order": "Order",
+    "invoice": "Invoice",
+    "oturumKapat": "Log Out",
+    "profil": "Profile",
+    "cariEkstre": "Account Statement",
+    "kargoFaturaAdresiSecilmedi": "Please select both shipping and billing address.",
+    "siparisBasarisiz": "Failed to place the order.",
+    "selectAllVariants": "Please select all options.",
+    "cokSatanlar": "Best Sellers",
+    "birimFiyat": "Unit Price",
+    "toplam": "Total",
+    "iskonto": "Discount",
+    "kdv": "VAT",
+    "outletproducts": "Outlet Products",
+    "genelToplam": "Grand Total",
+    "miktar": "Quantity",
+    "fiyat": "Price",
+    "beklemede": "Pending",
+    "onaylandi": "Confirmed",
+    "hazirlaniyor": "Preparing",
+    "kargoda": "Shipped",
+    "teslimEdildi": "Delivered",
+    "iptalEdildi": "Cancelled",
+    "hazir": "Ready",
+    "havale": "Bank Transfer",
+    "stok": "In Stock",
+    "yoldaki": "On The Way",
+    "uretimde": "In Production",
+    "koliIciAdeti": "Quantity in Box",
+    "categories": "Categories",
+    "sepetiBosalt": "Delete Order",
+    "sepetiBosaltOnay": "Are you sure you want to delete the order?",
+    "sepetiBosaltOnayMesaj":"This action cannot be undone. All products will be deleted from the cart.",
+    "sepetBosaltildi": "Order deleted successfully",
+    "iptal": "Cancel",
+    "sirala": "Sort",
+    "alfabetikAZ": "Alphabetical A-Z",
+    "alfabetikZA": "Alphabetical Z-A",
+    "rastgele": "Random",
+    "guncelBakiye": "Current Balance",
+    "bakiyeAlinamadi": "Balance unavailable",
+    "borcunuz": "Your Debt",
+    "alacaginiz": "Your Credit",
+    "bakiyeDengede": "Balance Balanced",
+    "addedToCart": "Added to cart",
+    "viewDetails": "View Details"
+  },
+  "HomeAraKatalog": {
+    "title": "Discover Horoz Europe Products Designed for You!",
+    "description": "Quickly find our products using the search bar and filters.",
+    "button": "Learn More",
+    "catalog": "Horoz Europe Catalog"
+  },
+  "HomeUlkeler": {
+    "title": "Horoz Europe Global",
+    "description": "Countries We Operate In",
+    "button": "Contact Us"
+  },
+  "Footer": {
+    "poweredBy": "All rights reserved. 2026 Horoz Europe",
+    "pages": "Pages"
+  },
+  "UrunDetaySayfasi": {
+    "urunOzellikleri": "Product Features"
+  },
+  "loginPage": {
+    "kullaniciAdi": "Email",
+    "sifre": "Password",
+    "girisYap": "Login",
+    "yeniBayiKayit": "New Dealer Registration",
+    "hesapGiris": "Login to Your Account",
+    "hosgeldiniz": "Welcome",
+    "lutfenRobotOlmadiginiziDogrulayin": "Please verify that you are not a robot"
+  },
+  "newDealerPage": {
+    "ad": "Company Name",
+    "soyad": "Contact Person",
+    "eposta": "Email",
+    "vknTckn": "Tax Number",
+    "telefon": "Phone",
+    "adres": "Address",
+    "ulke": "Country",
+    "il": "City",
+    "ilce": "District",
+    "postaKodu": "Postal Code",
+    "basvuruYap": "Apply",
+    "zatenUyeMisinsiniz": "Already a Member?",
+    "girisYap": "Login",
+    "gonderiliyor": "Sending...",
+    "basvurunuzBasarili": "Your application has been successfully submitted. We will notify you upon approval.",
+    "lutfenRobotOlmadiginiziDogrulayin": "Please verify that you are not a robot",
+    "sifre": "Password",
+    "sifreTekrar": "Repeat Password",
+    "sifreTekrarHatasi": "Passwords do not match"
+  },
+  "CariEkstre": {
+    "cariEkstre": "Account Statement",
+    "filtrele": "Filter",
+    "listele": "List",
+    "onceki": "Previous",
+    "sonraki": "Next",
+    "10Kayit": "10 Records",
+    "20Kayit": "20 Records",
+    "50Kayit": "50 Records",
+    "100Kayit": "100 Records",
+    "200Kayit": "200 Records",
+    "500Kayit": "500 Records",
+    "1000Kayit": "1000 Records",
+    "yukleniyor": "Loading..."
+  },
+  "TopluUrunEkleme": {
+    "topluUrunEkleme": "Bulk Add Products",
+    "topluUrunEklemeDescription": "Download the product list, update the Excel file and upload it again.",
+    "urunListesiIndir": "Download Product List",
+    "urunListesiIndirDescription": "Edit the downloaded Excel file and specify the product quantities.",
+    "dosyaYukle": "Upload File",
+    "dosyaYukleDescription": "Only Excel files (.xlsx, .xls) are accepted.",
+    "yukleniyor": "Uploading...",
+    "urunleriSepeteEkle": "Add to Cart",
+    "hataliUrunler": "Invalid Products",
+    "hataliUrunlerDescription": "The following products could not be added to the cart. Please check and try again.",
+    "hata": "Error",
+    "sepeteGit": "Go to Cart",
+    "indiriliyor": "Downloading...",
+    "miktar": "Quantity"
+  },
+  "Corporate": {
+    "title": "HOROZ EUROPE | ABOUT US",
+    "description": "HOROZ EUROPE | ABOUT US"
+  },
+  "TermsOfUse": {
+    "title": "HOROZ EUROPE | TERMS OF USE",
+    "description": "HOROZ EUROPE | TERMS OF USE"
+  },
+  "Contact": {
+    "title": "HOROZ EUROPE | CONTACT",
+    "description": "HOROZ EUROPE | CONTACT"
+  },
+  "News": {
+    "title": "HOROZ EUROPE | NEWS",
+    "description": "HOROZ EUROPE | NEWS"
+  },
+  "Catalog": {
+    "title": "HOROZ EUROPE | PRODUCT CATALOG",
+    "description": "HOROZ EUROPE | PRODUCT CATALOG"
+  },
+  "NewProducts": {
+    "title": "HOROZ EUROPE | NEW PRODUCTS",
+    "description": "HOROZ EUROPE | NEW PRODUCTS"
+  },
+  "Products": {
+    "title": "HOROZ EUROPE | PRODUCTS",
+    "description": "HOROZ EUROPE | PRODUCTS"
+  },
+  "ProductDetail": {
+    "title": "HOROZ EUROPE | PRODUCT DETAILS",
+    "description": "HOROZ EUROPE | PRODUCT DETAILS"
+  },
+  "OutletProducts": {
+    "title": "HOROZ EUROPE | OUTLET PRODUCTS",
+    "description": "HOROZ EUROPE | OUTLET PRODUCTS"
+  },
+  "CookieConsent": {
+    "title": "Cookie Usage",
+    "description": "This site uses cookies to improve your experience and provide personalized content.",
+    "accept": "Accept"
+  },
+  "LightingText": {
+    "title": "HOROZ EUROPE | CLARIFICATION TEXT",
+    "description": "HOROZ EUROPE | CLARIFICATION TEXT",
+    "heading": "Clarification Text",
+    "intro": "Your personal data is processed and protected only to the extent necessary in accordance with applicable legislation.",
+    "madde1": "Collected data is used to manage membership operations, order processes, delivery, and customer relationship activities.",
+    "madde2": "Your data may be shared with authorized partners and institutions when required by legal obligations or service delivery needs.",
+    "madde3": "You may exercise your rights regarding access, correction, deletion, and objection to your personal data via our communication channels."
+  }
+}

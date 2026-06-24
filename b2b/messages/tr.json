@@ -1,0 +1,230 @@
+{
+    "Maintenance": {
+      "title": "Bakım Modu",
+      "description": "Sistemimiz şu anda bakım çalışması yapıyor. Hizmetlerimiz kısa süre içinde tekrar kullanılabilir olacak.",
+      "infoTitle": "Neler Oluyor?",
+      "infoText": "Sistemimizi daha iyi hizmet verebilmek için güncelliyoruz. Bu süreçte tüm verileriniz güvende.",
+      "estimatedTime": "Tahmini Süre",
+      "estimatedDuration": "2-4 Saat",
+      "contactInfo": "Acil durumlar için bizimle iletişime geçin:",
+      "refreshButton": "Sayfayı Yenile"
+    },
+    "Header": {
+      "home": "ANASAYFA",
+      "products": "ÜRÜNLER",
+      "newproducts": "Yeni Ürünler",
+      "catalog": "Katalog",
+      "news": "Haberler",
+      "corporate": "Hakkımızda",
+      "termsOfUse": "Kullanım Koşulları",
+      "contact": "İletişim",
+      "search": "Ara",
+      "searchPlaceholder": "Ürün adı, barkod veya stok kodu yazın...",
+      "sliderButon":"Daha fazla bilgi",
+      "occasionalProducts":"Sizin İçin Seçilmiş Ürünler",
+      "readMore":"Daha Fazla Oku",
+      "benzerUrunler":"Benzer Ürünler",
+      "aydinlatmaMetni":"Aydınlatma Metni",
+      "orders":"Siparişler",
+      "cartButon":"Sepete Ekle",
+      "addToCart":"Sepete Ekle",
+      "cart":"Sepet",
+      "modalOdemeButon":"Ödeme Yap",
+      "siparisTamamla":"Sipariş Tamamla",
+      "toplamFiyat":"Toplam Fiyat",
+      "araToplam":"Ara Toplam",
+      "filters":"Filtre",
+      "clearFilters":"Filtre Temizle",
+      "colorTemperature":"Renk Sıcaklığı",
+      "gonderiAdresi":"Gönderim Adresi",
+      "faturaAdresi":"Fatura Adresi",
+      "sepetAciklama":"Açıklama",
+      "alisveriseDevamEt":"Alışverişe Devam Et",
+      "siparisOlusturuluyor":"Sipariş Oluşturuluyor...",
+      "siparislerim":"Siparişlerim",
+      "siparisNo":"Sipariş No",
+      "siparisBasarili":"Siparişiniz başarıyla oluşturuldu.",
+      "siparisBilgi":"Sipariş Bilgi",
+      "order":"Sipariş",
+      "invoice":"Fatura",
+      "oturumKapat":"Oturumu Kapat",
+      "profil":"Profil",
+      "cariEkstre":"Cari Ekstre",
+      "kargoFaturaAdresiSecilmedi":"Kargo ve fatura adresi seçilmedi",
+      "siparisBasarisiz":"Siparişiniz oluşturulamadı",
+      "selectAllVariants":"Tüm varyantları seçiniz",
+      "cokSatanlar":"En Çok Satan Ürünler",
+      "birimFiyat":"Birim Fiyat",
+      "toplam":"Toplam",
+      "iskonto":"İskonto",
+      "kdv":"KDV",
+      "outletproducts":"Outlet Ürünler",
+      "genelToplam":"Genel Toplam",
+      "miktar":"Miktar",
+      "fiyat":"Fiyat",
+      "beklemede":"Beklemede",
+      "onaylandi":"Onaylandı",
+      "hazirlaniyor":"Hazırlanıyor",
+      "kargoda":"Kargoda",
+      "teslimEdildi":"Teslim Edildi",
+      "iptalEdildi":"İptal Edildi",
+      "hazir":"Hazır",
+      "havale":"Havale",
+      "stok":"Stok",
+      "yoldaki":"Yoldaki",
+      "uretimde":"Üretimde",
+      "koliIciAdeti":"Koli İçi Adeti",
+      "categories":"Kategoriler",
+      "sepetiBosalt":"Siparişi Sil",
+      "sepetiBosaltOnay":"Siparişi silmek istediğinizden emin misiniz?",
+      "sepetiBosaltOnayMesaj":"Bu işlem geri alınamaz. Tüm ürünler sepetten silinecektir.",
+      "sepetBosaltildi":"Sipariş başarıyla silindi",
+      "iptal":"İptal",
+      "sirala":"Sıralama",
+      "alfabetikAZ":"Alfabetik A-Z",
+      "alfabetikZA":"Alfabetik Z-A",
+      "rastgele":"Rastgele",
+      "guncelBakiye":"Güncel Bakiye",
+      "bakiyeAlinamadi":"Bakiye alınamadı",
+      "borcunuz":"Borcunuz",
+      "alacaginiz":"Alacağınız",
+      "bakiyeDengede":"Bakiye Dengede",
+      "addedToCart":"Sepete eklendi",
+      "viewDetails":"Detayı Gör"
+    },
+    "HomeAraKatalog": {
+      "title": "İhtiyacınız Olan Horoz Europe Ürünleri Sizi Bekliyor!",
+      "description": "Horoz Europe ürünlerini hızlıca bulmak için arama çubuğunu ve filtreleri kullanabilirsiniz.",
+      "button": "Daha Fazla Bilgi",
+      "catalog": "Horoz Europe Katalog"
+    },
+    "HomeUlkeler": {
+      "title": "Horoz Europe Global",
+      "description": "Satış Yaptığımız Ülkeler",
+      "button": "İletişime Geçin"
+    },
+    "Footer": {
+      "poweredBy": "Tüm hakları saklıdır. 2026 Horoz Europe",
+      "pages": "Sayfalar"
+    },
+
+    "UrunDetaySayfasi": {
+      "urunOzellikleri":"Ürün Özellikleri"
+    },
+
+    "loginPage": {
+     "kullaniciAdi":"E-posta",
+     "sifre":"Şifre",
+     "girisYap":"Giriş Yap",
+     "yeniBayiKayit":"Yeni Bayi Kayıt",
+     "hesapGiris":"Hesabınıza giriş yapın",
+     "hosgeldiniz":"Hoşgeldiniz",
+     "lutfenRobotOlmadiginiziDogrulayin":"Lütfen robot olmadığınızı doğrulayın"
+    },
+
+    "newDealerPage": {
+      "ad":"Firma Adı",
+      "soyad":"Yetkili Kişi",
+      "eposta":"E-Posta",
+      "vknTckn":"VKN/TCKN",
+      "telefon":"Telefon",
+      "adres":"Adres",
+      "ulke":"Ülke",
+      "il":"İl",
+      "ilce":"İlçe",
+      "postaKodu":"Posta Kodu",
+      "basvuruYap":"Başvuru Yap",
+      "zatenUyeMisinsiniz":"Zaten Üye Misiniz?",
+      "girisYap":"Giriş Yapın",
+      "gonderiliyor":"Gönderiliyor...",
+      "basvurunuzBasarili":"Başvurunuz başarıyla gönderildi.Onaylandıktan sonra size bilgi vereceğiz.",
+      "lutfenRobotOlmadiginiziDogrulayin":"Lütfen robot olmadığınızı doğrulayın",
+      "sifre":"Şifre",
+      "sifreTekrar":"Şifre Tekrar",
+      "sifreTekrarHatasi":"Şifreler eşleşmiyor"
+    },
+
+    "CariEkstre": {
+      "cariEkstre":"Cari Ekstre",
+      "filtrele":"Filtrele",
+      "listele":"Listele",
+      "onceki":"Önceki",
+      "sonraki":"Sonraki",
+      "10Kayit":"10 Kayıt",
+      "20Kayit":"20 Kayıt",
+      "50Kayit":"50 Kayıt",
+      "100Kayit":"100 Kayıt",
+      "200Kayit":"200 Kayıt",
+      "500Kayit":"500 Kayıt",
+      "1000Kayit":"1000 Kayıt",
+      "yukleniyor":"Yükleniyor..."
+    },
+
+    "TopluUrunEkleme": {
+      "topluUrunEkleme":"Toplu Ürün Ekleme",
+      "topluUrunEklemeDescription":"Ürün listesini indirin, Excel dosyasını düzenleyin ve tekrar yükleyin.",
+      "urunListesiIndir":"Ürün Listesini İndir",
+      "urunListesiIndirDescription":"İndirdiğiniz Excel dosyasını düzenleyerek ürün miktarlarını belirtin.",
+      "dosyaYukle":"Dosya Yükle",
+      "dosyaYukleDescription":"Sadece Excel dosyaları (.xlsx, .xls) kabul edilir.",
+      "yukleniyor":"Yükleniyor...",
+      "urunleriSepeteEkle":"Ürünleri Sepete Ekle",  
+      "hataliUrunlerDescription":"Aşağıdaki ürünler sepete eklenemedi. Lütfen kontrol edip tekrar deneyin.",
+      "hata":"Hata",
+      "sepeteGit":"Sepete Git",
+      "indiriliyor":"İndiriliyor...",
+      "miktar":"Miktar",
+      "hataliUrunler":"Hatalı Ürünler"
+    },
+
+    "Corporate": {
+      "title": "HOROZ EUROPE | HAKKIMIZDA",
+      "description": "HOROZ EUROPE | HAKKIMIZDA"
+    },
+    "TermsOfUse": {
+      "title": "HOROZ EUROPE | KULLANIM KOŞULLARI",
+      "description": "HOROZ EUROPE | KULLANIM KOŞULLARI"
+    },
+    "Contact": {
+      "title": "HOROZ EUROPE | İLETİŞİM",
+      "description": "HOROZ EUROPE | İLETİŞİM"
+    },
+      "News": {
+        "title": "HOROZ EUROPE | HABERLER",
+        "description": "HOROZ EUROPE | HABERLER"
+      },
+      "Catalog": {
+        "title": "HOROZ EUROPE | KATALOG",
+        "description": "HOROZ EUROPE | KATALOG"
+      },
+      "NewProducts": {
+        "title": "HOROZ EUROPE | YENİ ÜRÜNLER",
+        "description": "HOROZ EUROPE | YENİ ÜRÜNLER"
+      },
+      "Products": {
+        "title": "HOROZ EUROPE | ÜRÜNLER",
+        "description": "HOROZ EUROPE | ÜRÜNLER"
+      },
+      "ProductDetail": {
+        "title": "HOROZ EUROPE | ÜRÜN DETAYI",
+        "description": "HOROZ EUROPE | ÜRÜN DETAYI"
+      },
+      "OutletProducts": {
+        "title": "HOROZ EUROPE | OUTLET ÜRÜNLER",
+        "description": "HOROZ EUROPE | OUTLET ÜRÜNLER"
+      },
+      "CookieConsent": {
+        "title": "Çerez Kullanımı",
+        "description": "Bu site, deneyiminizi iyileştirmek ve size kişiselleştirilmiş içerik sunmak için çerezleri kullanır.",
+        "accept": "Kabul Et"
+      },
+      "LightingText": {
+        "title": "HOROZ EUROPE | AYDINLATMA METNİ",
+        "description": "HOROZ EUROPE | AYDINLATMA METNİ",
+        "heading": "Aydınlatma Metni",
+        "intro": "Kişisel verileriniz, yürürlükteki mevzuata uygun olarak yalnızca gerekli olduğu ölçüde işlenir ve korunur.",
+        "madde1": "Toplanan veriler; üyelik işlemleri, sipariş süreçleri, teslimat ve müşteri ilişkileri faaliyetlerinin yürütülmesi amacıyla kullanılmaktadır.",
+        "madde2": "Verileriniz, yasal yükümlülüklerin yerine getirilmesi veya hizmetin sağlanması için gerekli durumlarda yetkili iş ortakları ve kurumlarla paylaşılabilir.",
+        "madde3": "Kişisel verilerinize ilişkin erişim, düzeltme, silme ve itiraz haklarınızı ilgili iletişim kanallarımız üzerinden kullanabilirsiniz."
+      }
+  }

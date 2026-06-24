@@ -1,0 +1,224 @@
+{
+  "Maintenance": {
+    "title": "Onderhoudsmodus",
+    "description": "Ons systeem is momenteel in onderhoud. Onze diensten zijn binnenkort weer beschikbaar.",
+    "infoTitle": "Wat gebeurt er?",
+    "infoText": "We werken ons systeem bij om u een betere service te bieden. Al uw gegevens zijn veilig tijdens dit proces.",
+    "estimatedTime": "Geschatte tijd",
+    "estimatedDuration": "2-4 uur",
+    "contactInfo": "Neem voor dringende zaken contact met ons op:",
+    "refreshButton": "Pagina vernieuwen"
+  },
+  "Header": {
+    "home": "Home",
+    "products": "Producten",
+    "newproducts": "Nieuwe producten",
+    "catalog": "Productcatalogus",
+    "news": "Nieuws",
+    "corporate": "Over ons",
+    "termsOfUse": "Gebruiksvoorwaarden",
+    "contact": "Contact",
+    "search": "Zoeken",
+    "searchPlaceholder": "Typ productnaam, barcode of artikelcode...",
+    "sliderButon": "Meer informatie",
+    "occasionalProducts": "Seizoensaanbiedingen",
+    "readMore": "Lees meer",
+    "benzerUrunler": "Vergelijkbare producten",
+    "aydinlatmaMetni": "Informatietekst",
+    "orders": "Bestellingen",
+    "cartButon": "Toevoegen aan winkelwagen",
+    "addToCart": "Toevoegen aan winkelwagen",
+    "cart": "Winkelwagen",
+    "modalOdemeButon": "Doorgaan naar afrekenen",
+    "siparisTamamla": "Bestelling afronden",
+    "toplamFiyat": "Totaalprijs",
+    "araToplam": "Subtotaal",
+    "filters": "Filters",
+    "clearFilters": "Filters wissen",
+    "colorTemperature": "Kleurtemperatuur",
+    "gonderiAdresi": "Verzendadres",
+    "faturaAdresi": "Factuuradres",
+    "sepetAciklama": "Omschrijving",
+    "alisveriseDevamEt": "Verder winkelen",
+    "siparisOlusturuluyor": "Bestelling wordt aangemaakt...",
+    "siparislerim": "Mijn bestellingen",
+    "siparisNo": "Bestelnummer",
+    "siparisBasarili": "Uw bestelling is succesvol geplaatst.",
+    "siparisBilgi": "Bestelgegevens",
+    "order": "Bestelling",
+    "invoice": "Factuur",
+    "oturumKapat": "Uitloggen",
+    "profil": "Profiel",
+    "cariEkstre": "Rekeningoverzicht",
+    "kargoFaturaAdresiSecilmedi": "Selecteer zowel een verzend- als een factuuradres.",
+    "siparisBasarisiz": "Plaatsen van de bestelling mislukt.",
+    "selectAllVariants": "Selecteer alle opties.",
+    "cokSatanlar": "Bestsellers",
+    "birimFiyat": "Eenheidsprijs",
+    "toplam": "Totaal",
+    "iskonto": "Korting",
+    "kdv": "btw",
+    "outletproducts": "Outletproducten",
+    "genelToplam": "Eindtotaal",
+    "miktar": "Aantal",
+    "fiyat": "Prijs",
+    "beklemede": "In afwachting",
+    "onaylandi": "Bevestigd",
+    "hazirlaniyor": "In voorbereiding",
+    "kargoda": "Verzonden",
+    "teslimEdildi": "Geleverd",
+    "iptalEdildi": "Geannuleerd",
+    "hazir": "Gereed",
+    "havale": "Bankoverschrijving",
+    "stok": "Op voorraad",
+    "yoldaki": "Onderweg",
+    "uretimde": "In productie",
+    "koliIciAdeti": "Aantal per doos",
+    "categories": "Categorieën",
+    "sepetiBosalt": "Bestelling verwijderen",
+    "sepetiBosaltOnay": "Weet u zeker dat u de bestelling wilt verwijderen?",
+    "sepetiBosaltOnayMesaj": "Deze actie kan niet ongedaan worden gemaakt. Alle producten worden uit de winkelwagen verwijderd.",
+    "sepetBosaltildi": "Bestelling succesvol verwijderd",
+    "iptal": "Annuleren",
+    "sirala": "Sorteren",
+    "alfabetikAZ": "Alfabetisch A-Z",
+    "alfabetikZA": "Alfabetisch Z-A",
+    "rastgele": "Willekeurig",
+    "guncelBakiye": "Huidig saldo",
+    "bakiyeAlinamadi": "Saldo niet beschikbaar",
+    "borcunuz": "Uw schuld",
+    "alacaginiz": "Uw tegoed",
+    "bakiyeDengede": "Saldo in evenwicht",
+    "addedToCart": "Toegevoegd aan winkelwagen",
+    "viewDetails": "Details bekijken"
+  },
+  "HomeAraKatalog": {
+    "title": "Ontdek de Horoz Electric-producten die voor u zijn ontworpen!",
+    "description": "Vind onze producten snel met de zoekbalk en filters.",
+    "button": "Meer informatie",
+    "catalog": "Horoz Electric-catalogus"
+  },
+  "HomeUlkeler": {
+    "title": "Horoz Electric Global",
+    "description": "Landen waarin wij actief zijn",
+    "button": "Neem contact op"
+  },
+  "Footer": {
+    "poweredBy": "Alle rechten voorbehouden. 2025 Horoz Electric",
+    "pages": "Pagina's"
+  },
+  "UrunDetaySayfasi": {
+    "urunOzellikleri": "Productkenmerken"
+  },
+  "loginPage": {
+    "kullaniciAdi": "E-mail",
+    "sifre": "Wachtwoord",
+    "girisYap": "Inloggen",
+    "yeniBayiKayit": "Registratie nieuwe dealer",
+    "hesapGiris": "Log in op uw account",
+    "hosgeldiniz": "Welkom",
+    "lutfenRobotOlmadiginiziDogrulayin": "Bevestig dat u geen robot bent"
+  },
+  "newDealerPage": {
+    "ad": "Bedrijfsnaam",
+    "soyad": "Contactpersoon",
+    "eposta": "E-mail",
+    "vknTckn": "Btw-nummer",
+    "telefon": "Telefoon",
+    "adres": "Adres",
+    "ulke": "Land",
+    "il": "Stad",
+    "ilce": "District",
+    "postaKodu": "Postcode",
+    "basvuruYap": "Aanvragen",
+    "zatenUyeMisinsiniz": "Al lid?",
+    "girisYap": "Inloggen",
+    "gonderiliyor": "Verzenden...",
+    "basvurunuzBasarili": "Uw aanvraag is succesvol verzonden. Wij informeren u na goedkeuring.",
+    "lutfenRobotOlmadiginiziDogrulayin": "Bevestig dat u geen robot bent",
+    "sifre": "Wachtwoord",
+    "sifreTekrar": "Wachtwoord herhalen",
+    "sifreTekrarHatasi": "Wachtwoorden komen niet overeen"
+  },
+  "CariEkstre": {
+    "cariEkstre": "Rekeningoverzicht",
+    "filtrele": "Filteren",
+    "listele": "Weergeven",
+    "onceki": "Vorige",
+    "sonraki": "Volgende",
+    "10Kayit": "10 records",
+    "20Kayit": "20 records",
+    "50Kayit": "50 records",
+    "100Kayit": "100 records",
+    "200Kayit": "200 records",
+    "500Kayit": "500 records",
+    "1000Kayit": "1000 records",
+    "yukleniyor": "Laden..."
+  },
+  "TopluUrunEkleme": {
+    "topluUrunEkleme": "Producten in bulk toevoegen",
+    "topluUrunEklemeDescription": "Download de productlijst, werk het Excel-bestand bij en upload het opnieuw.",
+    "urunListesiIndir": "Productlijst downloaden",
+    "urunListesiIndirDescription": "Bewerk het gedownloade Excel-bestand en geef de productaantallen op.",
+    "dosyaYukle": "Bestand uploaden",
+    "dosyaYukleDescription": "Alleen Excel-bestanden (.xlsx, .xls) worden geaccepteerd.",
+    "yukleniyor": "Uploaden...",
+    "urunleriSepeteEkle": "Toevoegen aan winkelwagen",
+    "hataliUrunler": "Ongeldige producten",
+    "hataliUrunlerDescription": "De volgende producten konden niet aan de winkelwagen worden toegevoegd. Controleer en probeer het opnieuw.",
+    "hata": "Fout",
+    "sepeteGit": "Naar winkelwagen",
+    "indiriliyor": "Downloaden...",
+    "miktar": "Aantal"
+  },
+  "Corporate": {
+    "title": "HOROZ EUROPE | OVER ONS",
+    "description": "HOROZ EUROPE | OVER ONS"
+  },
+  "TermsOfUse": {
+    "title": "HOROZ EUROPE | GEBRUIKSVOORWAARDEN",
+    "description": "HOROZ EUROPE | GEBRUIKSVOORWAARDEN"
+  },
+  "Contact": {
+    "title": "HOROZ EUROPE | CONTACT",
+    "description": "HOROZ EUROPE | CONTACT"
+  },
+  "News": {
+    "title": "HOROZ EUROPE | NIEUWS",
+    "description": "HOROZ EUROPE | NIEUWS"
+  },
+  "Catalog": {
+    "title": "HOROZ EUROPE | PRODUCTCATALOGUS",
+    "description": "HOROZ EUROPE | PRODUCTCATALOGUS"
+  },
+  "NewProducts": {
+    "title": "HOROZ EUROPE | NIEUWE PRODUCTEN",
+    "description": "HOROZ EUROPE | NIEUWE PRODUCTEN"
+  },
+  "Products": {
+    "title": "HOROZ EUROPE | PRODUCTEN",
+    "description": "HOROZ EUROPE | PRODUCTEN"
+  },
+  "ProductDetail": {
+    "title": "HOROZ EUROPE | PRODUCTDETAILS",
+    "description": "HOROZ EUROPE | PRODUCTDETAILS"
+  },
+  "OutletProducts": {
+    "title": "HOROZ EUROPE | OUTLETPRODUCTEN",
+    "description": "HOROZ EUROPE | OUTLETPRODUCTEN"
+  },
+  "CookieConsent": {
+    "title": "Gebruik van cookies",
+    "description": "Deze site gebruikt cookies om uw ervaring te verbeteren en gepersonaliseerde inhoud aan te bieden.",
+    "accept": "Accepteren"
+  },
+  "LightingText": {
+    "title": "HOROZ EUROPE | INFORMATIETEKST",
+    "description": "HOROZ EUROPE | INFORMATIETEKST",
+    "heading": "Informatietekst",
+    "intro": "Uw persoonsgegevens worden uitsluitend voor zover noodzakelijk en in overeenstemming met de geldende wetgeving verwerkt en beschermd.",
+    "madde1": "De verzamelde gegevens worden gebruikt voor het beheren van lidmaatschapsactiviteiten, bestelprocessen, levering en klantrelatiebeheer.",
+    "madde2": "Uw gegevens kunnen worden gedeeld met geautoriseerde partners en instellingen wanneer dit wettelijk verplicht is of nodig is voor de dienstverlening.",
+    "madde3": "U kunt uw rechten op inzage, correctie, verwijdering en bezwaar met betrekking tot uw persoonsgegevens uitoefenen via onze communicatiekanalen."
+  }
+}
