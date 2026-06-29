@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { useEffect, useState } from "react";
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
+import { Switch } from "@/components/ui/switch"
 import { API_ENDPOINTS, API_BASE_URL_KATEGORI_RESIM } from "@/config/api";
 import api from "@/services/api";
 import { toast, useToast } from "@/hooks/use-toast";
@@ -46,6 +47,7 @@ interface Kategori {
     iskonto_yuzde: number;
     fiyat_grup_id: number;
     durum: number;
+    cari_ekstre_yetki: number;
     sifre: string;
     sifre1: string;
 }
@@ -71,6 +73,7 @@ export default function Musteriler() {
         iskonto_yuzde: 0,
         fiyat_grup_id: 0,
         durum: 0,
+        cari_ekstre_yetki: 0,
         sifre: '',
         sifre1: ''
     });
@@ -375,6 +378,17 @@ export default function Musteriler() {
                                     value={formData.telefon}
                                     onChange={(e) => handleChange('telefon', e.target.value)}
                                 />
+                            </div>
+
+                            <div className="flex flex-col gap-2">
+                                <Label>Cari Ekstre Yetkisi</Label>
+                                <div className="flex flex-row items-center justify-between gap-2 bg-gray-100 dark:bg-gray-900 p-3 rounded-md">
+                                    <span className="text-sm text-gray-600 dark:text-gray-300">Bu müşterinin B2B ana menüde Cari Ekstre sayfasını görme ve erişme izni</span>
+                                    <Switch
+                                        checked={Number(formData.cari_ekstre_yetki) === 1}
+                                        onCheckedChange={(checked) => setFormData(prev => ({ ...prev, cari_ekstre_yetki: checked ? 1 : 0 }))}
+                                    />
+                                </div>
                             </div>
 
                             <div className="flex flex-col gap-2">

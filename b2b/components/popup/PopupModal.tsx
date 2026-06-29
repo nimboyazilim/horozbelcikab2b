@@ -85,9 +85,10 @@ export default function PopupModal() {
             const response = await fetch(url);
             
             if (response.ok) {
-                const data = await response.json();
+                const text = await response.text();
+                const data = text ? JSON.parse(text) : null;
                 console.log('Popup data:', data);
-                
+
                 if (data && data.is_active) {
                     setPopupData(data);
                     setIsOpen(true);

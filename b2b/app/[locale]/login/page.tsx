@@ -89,7 +89,7 @@ export default function Login() {
     return (
         <div className="flex h-screen">
             {/* Left side - Image */}
-            <div className="hidden lg:flex w-1/2 bg-red-600 items-center justify-center">
+            <div className="hidden lg:flex w-1/2 bg-gray-50 items-center justify-center">
                 <Image
                     priority
                     src={ampul}
@@ -102,13 +102,6 @@ export default function Login() {
             <div className="w-full lg:w-1/2 flex items-center justify-center px-8">
                 <div className="w-full max-w-md space-y-8">
 
-                    <div className="flex justify-center w-[160px] mx-auto">
-                        <Image
-                            src={logo}
-                            alt="Logo"
-                            className="object-contain h-full w-full"
-                        />
-                    </div>
                     <div className="text-center">
                         <h2 className="text-3xl font-bold">{t('hosgeldiniz')}</h2>
                         <p className="mt-2 text-gray-600">{t('hesapGiris')}</p>
@@ -153,7 +146,7 @@ export default function Login() {
                         </div>
                     </form>
                     <div className="mt-10 border-t pt-4 text-center">
-                        © {tFooter('poweredBy')} | Horoz Europe
+                        © {tFooter('poweredBy')}
                     </div>
                 </div>
             </div>

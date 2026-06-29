@@ -1,6 +1,5 @@
 import conMain from "../config/database.mjs";
 import conMainMssql from "../config/databaseMssql.mjs";
-import conMainMssql2 from "../config/databaseMssql2.mjs";
 import DataServices from "./dataServices.mjs";
 import fs from 'fs';
 import { parse } from 'csv-parse';
@@ -16,8 +15,15 @@ class MikroServices {
                 .select('COLUMN_NAME')
                 .where('TABLE_NAME', 'STOKLAR_USER')
                 .whereNot('COLUMN_NAME', 'FAMILY_NAME')
-                .whereNot('COLUMN_NAME', 'Record_uid');
-                
+                .whereNot('COLUMN_NAME', 'RecID_RECno')
+                .whereNot('COLUMN_NAME', 'RecID_DBCno')
+                .whereNot('COLUMN_NAME', 'Vergi1_Stok_Kod')
+                .whereNot('COLUMN_NAME', 'Vergi1_Miktar')
+                .whereNot('COLUMN_NAME', 'Vergi1_Fiyat')
+                .whereNot('COLUMN_NAME', 'Vergi2_Stok_Kod')
+                .whereNot('COLUMN_NAME', 'Vergi2_Miktar')
+                .whereNot('COLUMN_NAME', 'Vergi2_Fiyat');
+
 
             const columnNames = columns.map(col => col.COLUMN_NAME);
             const groupedResults = [];
@@ -112,36 +118,14 @@ class MikroServices {
             });
 
             const familyName1 = await conMainMssql('STOKLAR_USER')
-                .select('STOKLAR.sto_kod','STOKLAR.sto_isim', 'STOKLAR.sto_webe_gonderilecek_fl', 'STOKLAR.sto_yabanci_isim', 'STOK_ALTERNATIFLERI.sa_alternatifkod', 'STOKLAR_USER.*')
-                .leftOuterJoin('STOKLAR', 'STOKLAR.sto_Guid', 'STOKLAR_USER.Record_uid')
-                .leftOuterJoin('STOK_ALTERNATIFLERI', 'STOK_ALTERNATIFLERI.sa_kod', 'STOKLAR.sto_kod')
-                .whereNot('STOKLAR_USER.FAMILY_NAME', null)
-                .whereNot('STOKLAR_USER.FAMILY_NAME', '')
-                .where('STOKLAR.sto_webe_gonderilecek_fl', 1)
-                .whereNotIn('STOKLAR.sto_kod', function() {
-                    this.select('sto_yabanci_isim')
-                        .from('STOKLAR')
-                        .whereNotNull('sto_yabanci_isim')
-                        .whereIn('sto_yabanci_isim', function() {
-                            this.select('sto_kod')
-                                .from('STOKLAR')
-                                .where('sto_webe_gonderilecek_fl', 1);
-                        });
-                })
-                .orderBy('STOKLAR_USER.FAMILY_NAME', 'ASC');
-                //.limit(50);
-
-              /* Eski kod
-              const familyName1 = await conMainMssql('STOKLAR_USER')
-                .select('STOKLAR.sto_kod','STOKLAR.sto_isim', 'STOKLAR.sto_webe_gonderilecek_fl', 'STOK_ALTERNATIFLERI.sa_alternatifkod', 'STOKLAR_USER.*')
-                .leftOuterJoin('STOKLAR', 'STOKLAR.sto_Guid', 'STOKLAR_USER.Record_uid')
+                .select('STOKLAR.sto_kod', 'STOK_ALTERNATIFLERI.sa_alternatifkod', 'STOKLAR_USER.*')
+                .leftOuterJoin('STOKLAR', 'STOKLAR.sto_RECno', 'STOKLAR_USER.RecID_RECno')
                 .leftOuterJoin('STOK_ALTERNATIFLERI', 'STOK_ALTERNATIFLERI.sa_kod', 'STOKLAR.sto_kod')
                 .whereNot('STOKLAR_USER.FAMILY_NAME', null)
                 .whereNot('STOKLAR_USER.FAMILY_NAME', '')
                 .where('STOKLAR.sto_webe_gonderilecek_fl', 1)
                 .orderBy('STOKLAR_USER.FAMILY_NAME', 'ASC');
                 //.limit(50);
-                */
 
             // FAMILY_NAME'a göre gruplama
             const groupedFamilyNames = familyName1.reduce((acc, curr) => {
@@ -183,7 +167,7 @@ class MikroServices {
 
                 if (stok1.length > 0) {
                     // İlk kaydı urun_ana_bilgileri tablosuna ekle
-                    let urunKontrol = await trx('urun_alt_bilgileri').where('urun_adi', stok1[0].FAMILY_NAME).first();
+                    let urunKontrol = await trx('urun_ana_bilgileri').where('stok_kodu', stok1[0].sto_kod).first();
 
                     if (urunKontrol) {
                         anaBilgiId = urunKontrol.id;
@@ -196,15 +180,14 @@ class MikroServices {
                         //urun_information: stok1[0].FAMILY_NAME,
                         //urun_meta_description: stok1[0].FAMILY_NAME,
                         //urun_meta_keywords: stok1[0].FAMILY_NAME,
-                        //urun_meta_title: stok1[0].FAMILY_NAME       
+                        //urun_meta_title: stok1[0].FAMILY_NAME
                         });
 
                         await trx('urun_ana_bilgileri').where('id', anaBilgiId).update({
-                            active: stok1[0].sto_webe_gonderilecek_fl
-                        });
+                            active: 1
+                            });
 
-
-                    } else {    
+                    } else {
 
                     anaBilgiId = await trx('urun_ana_bilgileri').insert({
                         alis_fiyati: 0,
@@ -212,10 +195,10 @@ class MikroServices {
                         stok_kodu: stok1[0].sto_kod,
                         barkod: '',
                         tip: 'varyant',
-                        active: stok1[0].sto_webe_gonderilecek_fl
+                        active: 1
                     });
 
-                  
+
 
                     // urun_alt_bilgileri eklerken
                     await trx('urun_alt_bilgileri').insert({
@@ -225,19 +208,13 @@ class MikroServices {
                         urun_information: stok1[0].FAMILY_NAME,
                         urun_meta_description: stok1[0].FAMILY_NAME,
                         urun_meta_keywords: stok1[0].FAMILY_NAME,
-                        urun_meta_title: stok1[0].FAMILY_NAME                  
+                        urun_meta_title: stok1[0].FAMILY_NAME
                     });
 
                     await trx('urun_stok_miktarlari').insert({
                         urun_id: anaBilgiId,
                         varyant_id: 0,
                         miktar: 0
-                    });
-
-                    await trx('urun_vergi_grup').insert({
-                        urun_id: anaBilgiId,
-                        varyant_id: 0,
-                        vergi_id: 4
                     });
 
                   /*  await trx('urun_durumlari_grup').insert({
@@ -247,10 +224,9 @@ class MikroServices {
                     }
                 }
 
-                for (const stok of stok1) {  
+                for (const stok of stok1) {
                     let urunVaryantKontrol = await trx('urun_varyant').where('stok_kodu', stok.sto_kod).first();
                     let varyantId;
-
 
                     if (urunVaryantKontrol) {
                         varyantId = urunVaryantKontrol.id;
@@ -258,7 +234,6 @@ class MikroServices {
                         // Alt varyantları bulmak için sütun isimlerini tanım
                         varyantId = await trx('urun_varyant').insert({
                             urun_id: anaBilgiId,
-                            varyant_urun_adi: stok.sto_isim,
                             alis_fiyati: 0,
                             fiyat: 0,
                             stok_kodu: stok.sto_kod,
@@ -270,12 +245,6 @@ class MikroServices {
                             urun_id: anaBilgiId,
                             varyant_id: varyantId,
                             miktar: 0
-                        });
-
-                        await trx('urun_vergi_grup').insert({
-                            urun_id: anaBilgiId,
-                            varyant_id: varyantId,
-                            vergi_id: 4
                         });
                     }
                 }
@@ -301,21 +270,25 @@ class MikroServices {
                 .select('COLUMN_NAME')
                 .where('TABLE_NAME', 'STOKLAR_USER')
                 .whereNot('COLUMN_NAME', 'FAMILY_NAME')
-                .whereNot('COLUMN_NAME', 'Record_uid');
+                .whereNot('COLUMN_NAME', 'RecID_RECno')
+                .whereNot('COLUMN_NAME', 'RecID_DBCno')
+                .whereNot('COLUMN_NAME', 'Vergi1_Stok_Kod')
+                .whereNot('COLUMN_NAME', 'Vergi1_Miktar')
+                .whereNot('COLUMN_NAME', 'Vergi1_Fiyat')
+                .whereNot('COLUMN_NAME', 'Vergi2_Stok_Kod')
+                .whereNot('COLUMN_NAME', 'Vergi2_Miktar')
+                .whereNot('COLUMN_NAME', 'Vergi2_Fiyat');
 
             const columnNames = columns.map(col => col.COLUMN_NAME);
 
-            const mikroVaryantlar =  await conMainMssql('STOKLAR_USER')
-            .select('STOKLAR.sto_kod', 'STOK_ALTERNATIFLERI.sa_alternatifkod', 'STOKLAR_USER.*')
-            .leftOuterJoin('STOKLAR', 'STOKLAR.sto_Guid', 'STOKLAR_USER.Record_uid')
-            .leftOuterJoin('STOK_ALTERNATIFLERI', 'STOK_ALTERNATIFLERI.sa_kod', 'STOKLAR.sto_kod')
-            .whereNot('STOKLAR_USER.FAMILY_NAME', null)
-            .whereNot('STOKLAR_USER.FAMILY_NAME', '')
-            .where('STOKLAR.sto_webe_gonderilecek_fl', 1)
-            .orderBy('STOKLAR_USER.FAMILY_NAME', 'ASC');
+            const mikroVaryantlar = await conMainMssql('B2B_stoklar')
+                .select('*')
+                .whereNot('FAMILY_NAME', null)
+                .whereNot('FAMILY_NAME', '')
+                .orderBy('FAMILY_NAME', 'ASC')
                 //.limit(50);
 
-            const urunVaryant = await trx('urun_varyant').select('*');    
+            const urunVaryant = await trx('urun_varyant').select('*');
             const urunAnaVaryant = await trx('urun_ana_varyant').select('*');    
          
 
@@ -2257,7 +2230,7 @@ ORDER BY Cari_Kod,
 	Program_No
             `;
 
-            const cariEkstre = await conMainMssql2.raw(query); // Execute the query
+            const cariEkstre = await conMainMssql.raw(query); // Execute the query
             return {
                 status: 'success',
                 message: 'Cari ekstre listesi başarıyla alındı',
@@ -2276,7 +2249,7 @@ ORDER BY Cari_Kod,
     async cariListe(req, res) {
 
         try {
-            const cariListe = await conMainMssql2('CARI_HESAPLAR')
+            const cariListe = await conMainMssql('CARI_HESAPLAR')
                 .select('CARI_HESAPLAR.cari_kod', 'CARI_HESAPLAR.cari_unvan1', 'CARI_HESAPLAR.cari_unvan2', 'CARI_HESAPLAR.cari_vdaire_no', 'CARI_HESAPLAR.cari_satis_fk', 'ssflt.sfl_aciklama')
                 .leftOuterJoin('STOK_SATIS_FIYAT_LISTE_TANIMLARI as ssflt', 'ssflt.sfl_sirano', 'CARI_HESAPLAR.cari_satis_fk')
                 .whereRaw('LOWER(CARI_HESAPLAR.cari_kod) like ?', ['m%'])

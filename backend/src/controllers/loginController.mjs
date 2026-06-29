@@ -191,7 +191,7 @@ class LoginController {
 
             // Generate JWT token
             const token = jwt.sign(
-                { id: user.id, musteri_id: user.musteri_ust_id, adsoyad: user.ad+' '+user.soyad, eposta: user.eposta },
+                { id: user.id, musteri_id: user.musteri_ust_id, adsoyad: user.ad+' '+user.soyad, eposta: user.eposta, cari_ekstre_yetki: user.cari_ekstre_yetki },
                 process.env.JWT_SECRET,
                 { expiresIn: '5h' }
             );

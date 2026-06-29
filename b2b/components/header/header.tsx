@@ -39,6 +39,7 @@ export default function Header() {
     const [activeSubCategory, setActiveSubCategory] = useState<number | null>(null);
     const [username, setUsername] = useState<string>('');
     const [isLoggedIn, setIsLoggedIn] = useState<boolean>(false);
+    const [cariEkstreYetki, setCariEkstreYetki] = useState<boolean>(false);
     const locale = useLocale();
     const router = useRouter();
 
@@ -65,6 +66,7 @@ export default function Header() {
             if (decodedToken) {
                 setUsername(decodedToken.adsoyad);
                 setIsLoggedIn(true);
+                setCariEkstreYetki(Number(decodedToken.cari_ekstre_yetki) === 1);
             }
         }
     }, []);
@@ -201,7 +203,7 @@ export default function Header() {
                                 </div>
                             </div>
                             <Link href="/profil" onClick={() => setMenuOpen(false)} className="hover:text-gray-600 py-2 px-2 text-sm">{t('profil')}</Link>
-                            <Link href="/account-statement" onClick={() => setMenuOpen(false)} className="hover:text-gray-600 py-2 px-2 text-sm">{t('cariEkstre')}</Link>
+                            {cariEkstreYetki && <Link href="/account-statement" onClick={() => setMenuOpen(false)} className="hover:text-gray-600 py-2 px-2 text-sm">{t('cariEkstre')}</Link>}
                             <button onClick={handleLogout} className="text-left text-red-500 hover:text-red-600 py-2 px-2 text-sm">{t('oturumKapat')}</button>
                         </div>
                     ) : (

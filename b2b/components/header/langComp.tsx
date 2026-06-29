@@ -59,12 +59,6 @@ export default function LangComp(){
                             Türkçe
                         </div>
                     </SelectItem>
-                    <SelectItem value="ru">
-                        <div className="flex items-center gap-2">
-                            <Image src={ruFlag} width={20} height={20} alt="ru-flag" />
-                            Russian
-                        </div>
-                    </SelectItem>
                     <SelectItem value="fr">
                         <div className="flex items-center gap-2">
                             <Image src={frFlag} width={20} height={20} alt="fr-flag" />

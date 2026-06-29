@@ -15,6 +15,7 @@ export default function HeaderUserInfo() {
     const router = useRouter();
     const [username, setUsername] = useState<string>('');
     const [eposta, setEposta] = useState<string>('');
+    const [cariEkstreYetki, setCariEkstreYetki] = useState<boolean>(false);
 
     useEffect(() => {
         const accessToken = document.cookie
@@ -25,6 +26,7 @@ export default function HeaderUserInfo() {
         if (accessToken) {
             const decodedToken = decodeJWT(accessToken);
             if (decodedToken) {
+                setCariEkstreYetki(Number(decodedToken.cari_ekstre_yetki) === 1);
                 const musteriId = decodedToken.musteri_id || decodedToken.id;
 
                 if (musteriId) {
@@ -92,7 +94,7 @@ function decodeJWT(token: string) {
                         </DropdownMenuLabel>
                         <DropdownMenuSeparator />
                         <Link href="/profil"><DropdownMenuItem>{t('profil')}</DropdownMenuItem></Link>
-                        <Link href="/account-statement"><DropdownMenuItem>{t('cariEkstre')}</DropdownMenuItem></Link>
+                        {cariEkstreYetki && <Link href="/account-statement"><DropdownMenuItem>{t('cariEkstre')}</DropdownMenuItem></Link>}
                         <DropdownMenuSeparator />
                         <DropdownMenuItem onClick={handleLogout}>{t('oturumKapat')}</DropdownMenuItem>
                     </DropdownMenuContent>

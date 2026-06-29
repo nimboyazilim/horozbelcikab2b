@@ -211,6 +211,7 @@ class SiparislerServices {
                     adres_kargo_id: req.body.kargoAdresId,
                     adres_fatura_id: req.body.faturaAdresId,
                     aciklama: req.body.aciklama,
+                    teslim_turu: req.body.teslimTuru || 'adrese',
                     odeme: 0,
                     durum: 0,
                 });

@@ -509,6 +509,15 @@ export default function Siparisler() {
                                     </div>
                                 </div>
                                 <div className="bg-gray-100 dark:bg-gray-800 p-2 rounded-md w-full mt-2">
+                                    <div className="font-bold text-sm">Teslim Türü</div>
+                                    <div className="text-sm">{
+                                        data?.siparislerGenel?.teslim_turu === 'magaza' ? 'Müşteri Gelip Alacak'
+                                        : data?.siparislerGenel?.teslim_turu === 'kargo' ? 'Kargo'
+                                        : data?.siparislerGenel?.teslim_turu === 'adrese' ? 'Adrese Teslim'
+                                        : '-'
+                                    }</div>
+                                </div>
+                                <div className="bg-gray-100 dark:bg-gray-800 p-2 rounded-md w-full mt-2">
                                     <div className="font-bold text-sm">Açıklama</div>
                                     <div className="text-sm">{data?.siparislerGenel?.aciklama}</div>
                                 </div>

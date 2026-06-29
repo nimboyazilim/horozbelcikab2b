@@ -32,7 +32,7 @@ export default function Contact() {
                     </div>
                     <div className="lg:w-1/2">
                         <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12003.657755828339!2d28.698605!3d41.223635!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caaaf361eedf91%3A0xe12f6c6a7e064fcc!2sHoroz%20Elektrik%20ve%20Elektronik%20Tic.%20Koll.%20%C5%9Eti.!5e0!3m2!1sen!2str!4v1749644380698!5m2!1sen!2str"
+                            src="https://www.google.com/maps?q=Gustave%20Demeurslaan%2073%2C%201654%20Hulzingen%2C%20Beersel%2C%20Belgium&output=embed"
                             width="100%"
                             height="300"
                             style={{ border: 0 }}

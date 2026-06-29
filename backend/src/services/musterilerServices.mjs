@@ -139,6 +139,7 @@ class MusterilerServices {
                 sifre: '802f12b9755bf4c7ae625a2638127b33',
                 iskonto_yuzde: req.body.iskonto_yuzde,
                 fiyat_grup_id: req.body.fiyat_grup_id,
+                cari_ekstre_yetki: 0,
             }
 
             const musteriKontrol = await conMain('musteriler')
@@ -225,6 +226,7 @@ class MusterilerServices {
                 iskonto_yuzde: req.body.iskonto_yuzde,
                 fiyat_grup_id: req.body.fiyat_grup_id,
                 durum: req.body.durum,
+                cari_ekstre_yetki: req.body.cari_ekstre_yetki ? 1 : 0,
                 sifre: req.body.sifre1 != '' ? crypto.createHash('md5').update(req.body.sifre1).digest('hex') : req.body.sifre
             }
 

@@ -28,7 +28,7 @@ export default async function middleware(request: NextRequest) {
   // Bakım modu aktifse ve bakım sayfasında değilsek, bakım sayfasına yönlendir
   if (isMaintenanceMode && !isMaintenancePage) {
     const locale = request.nextUrl.pathname.split('/')[1];
-    const validLocales = ['tr', 'en', 'ro', 'ru', 'fr', 'nl'];
+    const validLocales = ['tr', 'en', 'ro', 'fr', 'nl'];
     const currentLocale = validLocales.includes(locale) ? locale : 'tr';
     return NextResponse.redirect(new URL(`/${currentLocale}/maintenance`, request.url));
   }
@@ -66,7 +66,6 @@ export const config = {
     '/((?!api|_next/static|_next/image|favicon.ico|sitemap.xml|robots.txt).*)',
     '/en/:path*',
     '/ro/:path*',
-    '/ru/:path*',
     '/fr/:path*',
     '/nl/:path*'
   ]

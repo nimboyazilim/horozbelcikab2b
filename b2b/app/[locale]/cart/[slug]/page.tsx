@@ -14,6 +14,8 @@ import { toast } from "react-hot-toast";
 import { AlertDialog, AlertDialogContent, AlertDialogDescription, AlertDialogFooter, AlertDialogHeader, AlertDialogTitle, AlertDialogTrigger } from "@/components/ui/alert-dialog";
 import { Textarea } from "@/components/ui/textarea";
 import { Input } from "@/components/ui/input";
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
+import { Label } from "@/components/ui/label";
 interface Adres {
   id: number;
   adres: string;
@@ -36,6 +38,7 @@ export default function Cart() {
     const [siparisNo, setSiparisNo] = useState('');
     const [musteriAdresleri, setMusteriAdresleri] = useState<Adres[]>([]);
     const [aciklama, setAciklama] = useState('');
+    const [teslimTuru, setTeslimTuru] = useState('adrese');
     const [kargoAdresId, setKargoAdresId] = useState<number | null>(null);
     const [faturaAdresId, setFaturaAdresId] = useState<number | null>(null);
     const [deleteDialogOpen, setDeleteDialogOpen] = useState(false);
@@ -99,7 +102,7 @@ function decodeJWT(token: string) {
       return;
     }
     setLoading(true);
-    const response = await SiparislerServices.createSiparis(cartId,kargoAdresId,faturaAdresId,aciklama);
+    const response = await SiparislerServices.createSiparis(cartId,kargoAdresId,faturaAdresId,aciklama,teslimTuru);
     
     if(response.status === 'success'){
       toast.success(t('siparisBasarili'));
@@ -265,6 +268,20 @@ function decodeJWT(token: string) {
               </div>
             ))} */}
       
+
+      <div className="my-3 md:my-5">
+            <Label className="text-sm md:text-base font-bold">{t('teslimTuru')}</Label>
+            <Select value={teslimTuru} onValueChange={setTeslimTuru}>
+              <SelectTrigger className="w-full mt-1.5 text-sm md:text-base">
+                <SelectValue placeholder={t('teslimTuru')} />
+              </SelectTrigger>
+              <SelectContent>
+                <SelectItem value="adrese">{t('teslimAdrese')}</SelectItem>
+                <SelectItem value="magaza">{t('teslimMagaza')}</SelectItem>
+                <SelectItem value="kargo">{t('teslimKargo')}</SelectItem>
+              </SelectContent>
+            </Select>
+      </div>
 
       <div className="my-3 md:my-5">
             <Textarea placeholder={t('sepetAciklama')} value={aciklama} onChange={(e) => setAciklama(e.target.value)} className="text-sm md:text-base" />

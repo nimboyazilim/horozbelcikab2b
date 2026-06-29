@@ -9,8 +9,8 @@ class SiparislerServices {
         return response.data;
     }
 
-    async createSiparis(cartId: string,kargoAdresId: number,faturaAdresId: number,aciklama: string) {
-        const response = await api.post(API_ENDPOINTS.createSiparis, { cartId,kargoAdresId,faturaAdresId,aciklama });
+    async createSiparis(cartId: string,kargoAdresId: number,faturaAdresId: number,aciklama: string,teslimTuru: string) {
+        const response = await api.post(API_ENDPOINTS.createSiparis, { cartId,kargoAdresId,faturaAdresId,aciklama,teslimTuru });
         return response.data;
     }
 
